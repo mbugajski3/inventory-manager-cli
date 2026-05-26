@@ -1,0 +1,22 @@
+{
+    "Eggs": {
+        "quantity": 20,
+        "price": 9
+    },
+    "Bread": {
+        "quantity": 15,
+        "price": 10
+    },
+    "Butter": {
+        "quantity": 14,
+        "price": 5
+    },
+    "Cereals": {
+        "quantity": 5,
+        "price": 4
+    },
+    "Sausages": {
+        "quantity": 10,
+        "price": 5
+    }
+}
