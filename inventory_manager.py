@@ -184,8 +184,9 @@ def find_product_with_highest_quantity(inventory):
 
 
 def find_product_with_lowest_quantity(inventory):
-    lowest_quantity = 9999
-    lowest_product_name = ""
+    first_product = list(inventory.keys())[0]
+    lowest_quantity = inventory[first_product]["quantity"]
+    lowest_product_name = first_product
 
     for name in inventory:
         quantity = inventory[name]["quantity"]

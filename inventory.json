@@ -18,5 +18,9 @@
     "Sausages": {
         "quantity": 10,
         "price": 5
+    },
+    "Broccoli": {
+        "quantity": 60,
+        "price": 2
     }
 }
