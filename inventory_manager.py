@@ -223,7 +223,7 @@ def check_shortages(inventory, minimum):
 
 def check_budget(shortage_cost, budget):
     if budget < shortage_cost:
-        print("You are missing", shortage_cost - budget, "PLN to restock all shortages.")
+        print("You are missing", abs(shortage_cost - budget), "PLN to restock all shortages.")
     elif budget == shortage_cost:
         print("The budget is just enough.")
     else:
